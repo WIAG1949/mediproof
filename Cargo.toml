@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = [
+    "contracts/batch-registry",
+    "contracts/coldchain-proof",
+    "contracts/recall-manager",
+]
+
+[workspace.dependencies]
+soroban-sdk = { version = "21.0.1" }
+
+[workspace.package]
+rust-version = "1.78"
